@@ -24,13 +24,14 @@ nav.addEventListener('click',() => {
         });
 
     // pop up nav
-    ["opacity-0","opacity-100", "-translate-y-0.5","translate-x-96"].forEach(className => {
+    ["opacity-0","opacity-100","translate-y-1"].forEach(className => {
         Popnav.classList.toggle(className);
         });
 });
 
 // navigasi-bar
 let barNav = document.querySelector('.content-nav');
+
 window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
         ["shadow-lg"].forEach(className => {

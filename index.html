@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ammar Fatin - Portofolio</title>
     <link href="./src/output.css" rel="stylesheet" />
+
 </head>
 
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col font-sans">
 
     <!-- nav -->
-    <nav class="content-nav sticky top-0 z-50 bg-white lg:flex lg:w-dvw lg:justify-between ">
-        <div class=" relative flex w-full lg:w-1/2 h-17 justify-between pr-4 lg:p-5 ">
+    <nav
+        class="content-nav flex flex-col lg:flex-row bg-white sticky top-0 z-50 w-full  lg:flex lg:justify-between ">
+        <div class=" relative flex  lg:w-1/2 h-17 justify-between lg:p-5">
             <!-- logo -->
             <div class="logo">
-                <a href="#main"><img src="./src/assets/logo me.png" alt="logo" width="100px cursor-pointer "></a>
+                <a href="#main"><img src="./src/assets/logo me.png" alt="logo" width="100px"></a>
             </div>
 
             <!-- navigasi icon -->
-            <div class="navigasi flex h-full items-center pr-5 lg:hidden">
-                <input type="checkbox" class="hidden" id="hamburger">
+            <div class="navigasi flex h-full items-center  pr-5 lg:hidden">
+                <input type="checkbox" class="hidden " id="hamburger">
                 <label for="hamburger">
                     <div class="flex flex-col items-center justify-center lg:hidden cursor-pointer"
                         data-status="closed">
@@ -38,7 +40,7 @@
         <!-- list navigasi -->
         <div class="list-nav">
             <ul
-                class=" flex absolute flex-col items-center w-full m-5 rounded-xl overflow-hidden border-2 bg-white border-blue-50 p-5 shadow-lg shadow-blue-400/50 transition-all duration-300 ease-out opacity-0 -translate-y-0.5 translate-x-96 lg:flex-row lg:opacity-100 lg:shadow-none lg:border-none lg: lg:flex lg:translate-y-0 lg:translate-x-0 lg:mr-30   lg:w-fit lg:m-0 lg:h-fit lg:text-center lg:gap-6 lg:justify-end lg:p-10 lg:relative ">
+                class=" flex absolute w-dvw flex-col items-center  m-5 rounded-xl overflow-hidden border-2 bg-white border-blue-50 p-1 shadow-lg shadow-blue-400/50 transition-all duration-300 ease-out opacity-0  lg:flex-row lg:opacity-100 lg:shadow-none lg:border-none lg:flex lg:translate-y-0 lg:translate-x-0  md:text-center lg:w-fit lg:m-0 lg:h-fit lg:text-center lg:gap-6 lg:justify-end lg:p-10 lg:relative lg:mr-20">
 
                 <li
                     class="  w-full h-17 lg:h-fit lg:w-fit  p-4 border-b border-blue-100 lg:border-none lg:p-0  lg:hover:text-sky-800/30 cursor-pointer ">
@@ -64,7 +66,7 @@
             </ul>
         </div>
     </nav>
-    <main id="main" class="w-full h-dvh md:h-fit lg:h-dvh md:mt-10 lg:mt-0 p-7.5 lg:pb-50  ">
+    <main id="main" class="w-full h-dvh md:h-fit lg:h-dvh md:mt-10 lg:mt-0 p-7.5 lg:pb-50 ">
 
         <div
             class="relative flex w-full h-1/2 flex-col justify-center z-20 md:h-fit md:p-5 lg:p-0  md:overflow-hidden  lg:h-full lg:items-center ">
@@ -85,16 +87,16 @@
         </div>
     </main>
 
-    <section id="TentangSaya" class="flex  items-start justify-center w-full h-dvh md:h-fit px-5 lg:pt-20">
-        <div class="relative w-full  flex md:flex-row justify-center ">
+    <section id="TentangSaya" class="flex items-start justify-center w-dvw h-dvh md:h-fit px-5 lg:pt-20 lg:w-full">
+        <div class="relative w-full  flex flex-col md:flex-row justify-center ">
             <img src="./src/assets/Group 3.png" alt="Ammar fatin Foto" class="w-fit">
 
             <div
-                class="TentangSaya flex absolute md:relative flex-col gap-2.5 rounded-4xl -bottom-40 p-7 m-10 md:top-10 md:pt-10 lg:justify-center bg-[#F0F7FE] lg:max-w-1/2 lg:p-10 lg:h-fit lg:mt-50">
-                <p class="text-xm font-bold text-left lg:text-xl">Hallo Semua!,saya <span
+                class="TentangSaya flex relative md:relative flex-col gap-2.5 rounded-4xl -top-10 p-7  md:top-10 md:pt-10 lg:justify-center bg-[#F0F7FE] lg:max-w-1/2 lg:p-10 lg:h-fit lg:mt-50">
+                <p class="text-xm font-bold text-left lg:text-xl">Hallo Semua!<br>saya <span
                         class="text-2xl text-[#3CADFF] md:text-2xl md:mb-30 lg:text-4xl">Ammar
                         Fatin.</span></p>
-                <p class="text-left text-xs md:text-base lg:text-2xl lg:text-justify">Saat ini saya sedang mengambil
+                <p class="text-left text-xs md:text-base lg:text-2xl lg:text-justify font-light">Saat ini saya sedang mengambil
                     pendidikan di bidang Teknik Informatika.
                     Saya memiliki kertetarikan terhadap teknologi dimasa ini dan dimasa yang akan datang terlebih lagi
                     pada bidang software. Untuk saat ini saya sedang mempelajari teknologi perangkat lunak berbasis web
